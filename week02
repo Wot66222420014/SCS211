@@ -1,0 +1,51 @@
+<body>
+    <h1>Tank model</h1>
+    <h2>ผลิตจากแร่ทองคำแท้ ที่ได้มาจากชั้นใต้ดิน 1000เมตรขุดด้วยมือ</h2>
+    <h3><del> 20,000บาท </h3>
+        ราคา 20 บาท</h3>
+    
+</body>
+
+
+<div>
+    <div id=“text_red”>sell</div>
+    <br/> <hr/>
+   
+</div>
+
+
+<div>
+    <a href="https://www.murata-kimpaku-thailand.com/16484814/pure-gold-coating">
+        PURE GOLD COATING
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Aberdean_proving_grounds_036.JPG" alt="Tank Model" width="500" />
+    </div>
+    <input type="Button" value = สั่งซื้อสินค้า > 
+    <h2>Tank Model</h2>
+<ul>
+  <li>ทำจากทองคำแท้100%</li>
+  <li>มีมาตารฐานISO</li>
+  <li>ไม่เป็นอันตรายกับใคร</li>
+  <li>ประหยัดพลังงาน</li>
+</ul>  
+
+
+
+
+
+    <table border=1>
+        <tr>
+          <th>สินค้า</th>
+          <th>ราคา</th> 
+          <th>ราคารวมส่ง</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>20บาท</td>
+          <td>20บาท</td>
+        </tr>
+      </table>
+
+
+        
+   
