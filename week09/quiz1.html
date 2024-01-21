@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+        
+    </script>
+</head>
+<body>
+    <div style="width: 1000px; height: 600px;" id="chart_div"></div>
+    <script type="text/javascript" >google.charts.load('current', {packages: ['corechart', 'line']});
+        google.charts.setOnLoadCallback(drawBackgroundColor);
+        
+        function drawBackgroundColor() {
+              var data = new google.visualization.DataTable();
+              data.addColumn('number', 'X');
+              data.addColumn('number', 'นักศึกษา');
+        
+              data.addRows([
+                [2558, 32],   
+                [2559, 27],   
+                [2560, 48],   
+                [2561, 31],   
+                [2562, 52],   
+                [2563, 16],   
+                [2564, 35],   
+                [2565, 50],   
+                [2566, 49]   
+              ]);
+        
+              var options = {
+                hAxis: {
+                  title: 'จำนวนนักศึกษาวิทยาการคอมพิวเตอร์ ตั้งแต่พ.ศ 2558-2566'
+                },
+                vAxis: {
+                  title: 'Popularity'
+                },
+                backgroundColor: '#f1f8e9'
+              };
+        
+              var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+              chart.draw(data, options);
+            }</script>
+    
+</body>
+</html>
